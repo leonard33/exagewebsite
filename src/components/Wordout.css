@@ -1,0 +1,23 @@
+.wordout {
+  background-image: url("https://lh3.googleusercontent.com/yZqJF4H2qNif7HXsG_wxvcZyi-ZnoqEXQl6OSEH-2uoF94zB18FlDEU9TUg3sPhZ2cOr1bKNeKPhRWGeG_viIdpuDvdsinbkZPO1RUt4dg=s1200");
+}
+
+.overcover {
+    background-color: rgba(88, 52, 102, 0.7);
+}
+
+.overcover h2 {
+    font-family: 'uncleedward';
+    font-size: 74px;
+    color: rgb(252, 198, 19);
+    font-weight: 400;
+}
+
+.connecting {
+    font-family: 'Aileron', sans-serif;
+}
+
+.intro {
+    font-family: 'Aileron', sans-serif;
+    font-weight: 300;
+}

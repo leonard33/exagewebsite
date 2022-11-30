@@ -1,0 +1,24 @@
+.offers {
+  background-image: url("https://t3.ftcdn.net/jpg/05/12/06/44/360_F_512064492_DphwxubmDJ7o3AzkbxAFbb3jXx1pspK1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-offer {
+  background-color: white;
+}
+
+.card {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card h4 {
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}

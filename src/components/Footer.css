@@ -1,0 +1,38 @@
+.suport-title,
+.sales-title,
+.connect-title,
+.title-menu {
+  font-family: 'uncleedward';
+  font-size: 30px;
+  color: rgb(252, 198, 19);
+}
+
+.menu ul li,
+.support-mail,
+.sales-mail {
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  font-family: 'Courgette', cursive;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.contact {
+    font-family: 'Aileron', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: orange;
+}
+
+.connect-btn img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.connect-btn img:hover {
+    border-bottom: 2px solid green;
+}

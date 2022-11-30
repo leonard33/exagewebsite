@@ -1,0 +1,126 @@
+.title {
+   background-color: purple;
+   display: flex;
+   align-items: center;
+   font-family: 'Courgette', cursive;
+   color: white;
+   font-weight: 600;
+}
+
+.details-package  {
+  font-family: 'Courgette', cursive;
+}
+
+.pricing {
+  font-family: 'Nerko One', cursive;
+}
+
+.package-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.home {
+  background-image: url("https://zoomwollongong.com/wp-content/uploads/2022/07/4-92.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.office {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/png-vector/20200530/ourmid/pngtree-indoor-office-png-image_2215291.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 189, 0, 0.8);
+}
+
+/*.overlay-pack {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 99, 148, 0.85);
+}*/
+
+.overlay2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(234, 95, 27, 0.9);
+}
+
+.package {
+  background-image: url("https://t3.ftcdn.net/jpg/05/12/06/44/360_F_512064492_DphwxubmDJ7o3AzkbxAFbb3jXx1pspK1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+}
+
+.camp {
+    background-color: rgb(124, 189, 0);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.camp2 {
+  background-color: rgb(234, 95, 27);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.office-details,
+.home-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+}
+
+.office-details h4,
+.home-details h4 {
+  color: white;
+  font-family: 'Aileron', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  align-self: center;
+  padding: 10px;
+}
+
+.office-details span,
+.home-details span {
+  color: white;
+  font-family: 'Aileron', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.office-details h6,
+.home-details h6 {
+  line-height: 32px;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn-connect {
+  width: 40%;
+  align-self: center;
+  margin-top: 24px;
+  padding: 12px;
+  color: purple;
+  font-size: 16px;
+  background-color: yellow;
+}
+
+.package-heading {
+  font-family: 'Courgette', cursive;
+}
+
+.subdetail {
+  font-family: 'Nerko One', cursive;
+}

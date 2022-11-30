@@ -1,0 +1,12 @@
+.social {
+  width: 35%;
+}
+
+.social img {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.social img:hover {
+    border-bottom: 2px solid black;
+}
