@@ -1,0 +1,52 @@
+.services {
+  background-image: url("../assets/company/site.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-service  {
+    background-color: rgba(181, 94, 212, 0.7);
+}
+
+.service-title {
+    font-family: 'uncleedward';
+    color: yellow;
+}
+
+.service-intro {
+    text-shadow: orange;
+}
+
+.service-card,
+.service-card2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subservice-title {
+    font-family: 'uncleedward';
+    color: white;
+    margin-bottom: 10px;
+}
+
+.service-title1 {
+    font-family: 'uncleedward';
+    color: green;
+    text-align: center;
+}
+
+.subdesc {
+    font-family: 'Aileron', sans-serif;
+    line-height: 25px;
+    color: yellow;
+}
+
+.service-card2 {
+  opacity: 0;
+}
+
+
+.service-card2:hover {
+  opacity: 10;
+  transition: 0.5s ease-in-out;
+}

@@ -18,7 +18,7 @@ const Videodemo = () => {
                     through unlimited access to knowledge & opportunities.</h5>
                     <h6 className='mt-14 mb-4 text-lg font-semibold text-purple-500'>Let's connect !</h6>
                     <div className='social flex w-20 borde-2 items-center justify-around'>
-                        <img src={watsapp} alt=''/>
+                       <img src={watsapp} alt=''/>
                         <img src={fb} alt=''/>
                         <img src={twitter} alt=''/>
                         <img src={insta} alt=''/>

@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Offers from './components/Offers';
 import Packages from './components/Packages';
+import Services from './components/Services';
 import Subpackages from './components/Subpackages';
 import Videodemo from './components/Videodemo';
 import Wordout from './components/Wordout';
@@ -13,6 +14,9 @@ function App() {
     <div className="App">
       <section id='header' className='snap-start'>
        <Nav />
+      </section>
+      <section id='services'>
+        <Services />
       </section>
       <section id='packages' className='snap-center'>
         <Packages />
