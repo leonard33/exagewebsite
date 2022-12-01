@@ -21,9 +21,9 @@ function App() {
       <section id='packages' className='snap-center'>
         <Packages />
       </section>
-      <section id='subpackages'>
+      {/*<section id='subpackages'>
         <Subpackages />
-      </section>
+       </section>*/}
       <section id='wordout'>
         <Wordout />
       </section>

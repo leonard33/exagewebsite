@@ -7,12 +7,12 @@ const Services = () => {
   return (
     <div className='services relative w-full h-[100vh] flex flex-col items-center justify-center'>
         <div className='overlay-service absolute top-0 left-0 w-full h-[100vh] items-center justify-center flex flex-col'>
-        <div className='service-title tracking-widest font-semibold text-3xl'>~ OUR SERVICES ~</div>
+        <div className='service-title tracking-widest font-semibold text-3xl md:text-xl'>~ OUR SERVICES ~</div>
         <div className='desc flex items-center justify-center'>
             <h4 className='service-intro my-8 text-xl text-white font-bold w-[70%] flex items-center text-center'>Our team consists of technicians who have devout experience and
                knowledge that coincides with the latest technical innovations and IT Solutions,</h4>
         </div>
-        <div className='flex justify-around h-[50%]'>
+        <div className='absolute flex justify-around top-[14rem] h-[55%]'>
             {
                 services.map((item) => (
                     <div className='service-card bg-white w-[18%] items-center justify-center text-center fex flex-col rounded-xl' key={item.id}>

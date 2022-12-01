@@ -6,7 +6,7 @@
 }
 
 .overlay-service  {
-    background-color: rgba(181, 94, 212, 0.7);
+    background-color: rgba(181, 94, 212, 0.6);
 }
 
 .service-title {
@@ -49,4 +49,15 @@
 .service-card2:hover {
   opacity: 10;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  opacity: 0;
+}
+
+@media screen and (max-width: 780px) {
+    .service-intro {
+        font-size: 10px;
+    }
 }

@@ -79,3 +79,44 @@
     line-height: 30px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 780px) {
+  .nav-right ul li {
+    font-weight: 400;
+    font-size: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 9px;
+  }
+
+  .introduction h2 {
+    width: 80%;
+    font-size: 35px;
+  }
+
+  .introduction h4 {
+    font-family: 'Aileron', sans-serif;
+    font-size: 35px;
+    width: 85%;
+    font-weight: 400;
+    color: white;
+}
+
+.introduction h3 {
+    font-family: 'Aileron', sans-serif;
+    font-size: 20px;
+    width: 45%;
+    font-weight: 300;
+    color: white;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+  .nav-right ul {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+}
