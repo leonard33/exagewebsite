@@ -10,3 +10,39 @@
 .social img:hover {
     border-bottom: 2px solid black;
 }
+
+@media screen and (max-width: 480px) {
+  .videopart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video {
+    order: 2;
+    width: 95vw;
+    height: 15rem;
+    align-self: start;
+  }
+
+  .video-desc {
+    order: 1;
+    width: 95vw !important;
+    margin-left: -2px !important;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .video-desc h2 {
+    font-size: 20px;
+    margin-top: 9rem;
+  }
+
+  .video-desc h5 {
+    margin: 0;
+  }
+
+  .video-desc h6 {
+    margin: 10px;
+  }
+}

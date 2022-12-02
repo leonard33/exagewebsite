@@ -36,3 +36,28 @@
 .connect-btn img:hover {
     border-bottom: 2px solid green;
 }
+
+@media screen and (max-width: 480px) {
+  .footer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    display: none !important;
+  }
+
+  .sales {
+    margin-left: 10px;
+  }
+
+  .support {
+    margin-left: 30px;
+  }
+
+  .connect {
+    margin-left: -40px;
+  }
+}

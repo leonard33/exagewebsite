@@ -8,7 +8,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className='footer relative h-[60vh] w-full bg-purple-600 flex flex-col items-center justify-center'>
-      <div className='flex h-[35%] w-[90%] justify-around'>
+      <div className='footer-details flex h-[35%] w-[90%] justify-around'>
         <div className='menu flex flex-col'>
           <div className='title-menu'>Page Links</div>
             <ul>

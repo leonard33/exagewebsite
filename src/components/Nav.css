@@ -6,12 +6,39 @@
     background-image: url("https://t3.ftcdn.net/jpg/05/12/06/44/360_F_512064492_DphwxubmDJ7o3AzkbxAFbb3jXx1pspK1.jpg");
 }
 
+.nav2 {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+}
+
+.nav-right2 ul li {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 255,0.5);
+}
+
+.nav-right2 ul li:hover {
+  background-color: gainsboro;
+}
+
 .navigate {
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
+}
+
+.navigate2 {
+  display: none;
 }
 
 .nav-right ul li {
@@ -117,6 +144,30 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+  .navigate {
+    display: none !important;
+  }
+
+  .introduction h2 {
+    margin-top: -2rem;
+    margin-left: -5rem;
+    width: 80vw;
+  }
+
+  .introduction h4 {
+    width: 80vw;
+    font-size: 28px;
+    margin-left: -5rem;
+  }
+
+  .introduction h3 {
+    width: 80vw;
+    margin-left: -5rem;
+  }
+
+  .slider-btn {
+    margin-left: -5rem;
+  }
 
 }

@@ -21,3 +21,33 @@
     font-family: 'Aileron', sans-serif;
     font-weight: 300;
 }
+
+@media screen and (max-width: 480px) {
+  .overcover h2 {
+    margin-left: 50px;
+    margin-top: 2rem;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .overcover h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .overcover h6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 90vw;
+  }
+
+  .wordout-btn {
+    width: 90vw;
+    padding: 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    background-color: green;
+  }
+}

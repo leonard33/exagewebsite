@@ -10,12 +10,12 @@ const Subpackages = () => {
         {
             homepackages.map((items) => (
                 <div className='flex flex-col'>
-                    <div className='package-card mt-10 w-64 h-64 flex flex-col hover:animate-bounce rounded-lg items-center' key={items.id}>
+                    <div className='package-card mt-10 w-64 h-64 flex flex-col rounded-lg items-center' key={items.id}>
                     <div className='title text-2xl w-64 h-24 justify-center items-center text-center rounded-t-lg'>{items.title}</div>
                     <div className=' details-package w-[70%] text-center leading-6 mt-2 text-orange-500 text-lg'>{items.details}</div>
                     <div className='pricing mt-2 text-2xl text-yellow-500 font-semibold'>{items.price}</div>
                 </div>
-                <div className='offer-overlay flex flex-col justify-center rounded-lg items-center absolute top-[4.6rem] w-64 h-64 border-2 bg-orange-500'>
+                <div className='offer-overlay pk flex flex-col justify-center rounded-lg items-center absolute top-[4.6rem] w-64 h-64 border-2 bg-orange-500'>
                     
                 <div className='camp2 absolute w-44 h-44 -top-12 left-[2rem] flex flex-col items-center justify-center rounded-full'>
             <span className='package-heading tracking-wider absolute top-16 font-bold text-[1.5rem] -rotate-12 text-white'>Exagenetwork!</span>
@@ -38,7 +38,7 @@ const Subpackages = () => {
                        <div className='title w-64 h-24 justify-center items-center text-center rounded-t-lg'>{items.title}</div>
                        <div className='details-package w-[70%] text-center leading-6 mt-2 text-orange-500 text-lg'>{items.details}</div>
                        <div className='pricing mt-2 text-2xl text-yellow-500 font-semibold'>{items.price}</div>
-                   </div><div className='offer-overlay flex flex-col justify-center rounded-lg items-center absolute top-[5.1rem] w-64 h-64 border-2 bg-green-700'>
+                   </div><div className='offer-overlay pk flex flex-col justify-center rounded-lg items-center absolute top-[5.1rem] w-64 h-64 border-2 bg-green-700'>
 
                            <div className='camp2 absolute w-44 h-44 -top-12 left-[2rem] flex flex-col items-center bg-green-800 justify-center rounded-full'>
                                <span className='package-heading tracking-wider absolute top-16 font-bold text-[1.5rem] -rotate-12 text-white'>Exagenetwork!</span>

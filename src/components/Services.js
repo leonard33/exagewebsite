@@ -12,7 +12,7 @@ const Services = () => {
             <h4 className='service-intro my-8 text-xl text-white font-bold w-[70%] flex items-center text-center'>Our team consists of technicians who have devout experience and
                knowledge that coincides with the latest technical innovations and IT Solutions,</h4>
         </div>
-        <div className='absolute flex justify-around top-[14rem] h-[55%]'>
+        <div className='descy absolute flex justify-around top-[14rem] h-[55%]'>
             {
                 services.map((item) => (
                     <div className='service-card bg-white w-[18%] items-center justify-center text-center fex flex-col rounded-xl' key={item.id}>

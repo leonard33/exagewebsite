@@ -8,11 +8,12 @@ import Services from './components/Services';
 import Subpackages from './components/Subpackages';
 import Videodemo from './components/Videodemo';
 import Wordout from './components/Wordout';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <section id='header' className='snap-start'>
+      {/*<section id='header' className='snap-start'>
        <Nav />
       </section>
       <section id='services'>
@@ -23,7 +24,7 @@ function App() {
       </section>
       {/*<section id='subpackages'>
         <Subpackages />
-       </section>*/}
+       </section>}
       <section id='wordout'>
         <Wordout />
       </section>
@@ -35,7 +36,8 @@ function App() {
       </section>
       <section id='footer'>
         <Footer />
-      </section>
+      </section>*/}
+      <Home />
     </div>
   );
 }

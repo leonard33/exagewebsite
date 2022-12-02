@@ -124,3 +124,36 @@
 .subdetail {
   font-family: 'Nerko One', cursive;
 }
+
+@media screen and (max-width: 480px) {
+  .camp {
+    display: none;
+  }
+
+  .camp2 {
+    display: none !important;
+  }
+
+  .office-details span,
+  .home-details span {
+    font-size: 18px;
+  }
+
+
+.office-details h6,
+.home-details h6 {
+  line-height: 25px;
+ }
+
+ .office-details h4,
+ .home-details h4 {
+  font-size: 24px;
+ }
+
+ .btn-connect {
+  width: 80%;
+  font-size: 12px;
+  padding: 5px;
+ }
+
+}

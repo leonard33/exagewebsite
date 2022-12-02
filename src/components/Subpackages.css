@@ -12,3 +12,19 @@
   background-image: url("https://t3.ftcdn.net/jpg/05/12/06/44/360_F_512064492_DphwxubmDJ7o3AzkbxAFbb3jXx1pspK1.jpg");
   z-index: 2;
 }
+
+@media screen and (max-width: 480px) {
+  .packagedata {
+    overflow-x: auto;
+  }
+
+  .subpackages {
+    padding: 0;
+    margin: 0;
+  }
+
+  .pk:hover {
+    margin-top: 20px;
+  }
+
+}

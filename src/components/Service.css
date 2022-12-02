@@ -52,12 +52,36 @@
   cursor: pointer;
 }
 
-.service-card:hover {
-  opacity: 0;
-}
-
 @media screen and (max-width: 780px) {
     .service-intro {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .descy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto !important;
+    width: 90vw;
+    height: 100vh;
+    border: 2px solid green;
+    }
+
+  .desc-cover {
+    display: none !important;
+  }
+
+    .service-card {
+      width: 100% !important;
+      height: 80%;
+      margin-top: 5px;
+      border: 2px solid red;
+    }
+
+    .service-card2 {
+      display: none;
     }
 }
