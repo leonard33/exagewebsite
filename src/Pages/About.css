@@ -1,0 +1,60 @@
+.overlay-about,
+.overlay-intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.overlay-intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 165, 0, 0.4);
+  }
+
+.overlay-about h2 {
+    font-family: 'uncleedward';
+    font-size: 74px;
+    color: rgb(252, 198, 19);
+    font-weight: 400;
+}
+
+.about {
+  background-image: url("../assets/company/site.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-about h6 {
+  color: white;
+}
+
+.image-left img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.intro-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.intro-desc h2 {
+    font-family: 'uncleedward';
+    font-size: 70px;
+    color: white;
+    font-weight: 400;
+}
+
+.about-description h6 {
+  line-height: 35px;
+  font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 20px;
+}

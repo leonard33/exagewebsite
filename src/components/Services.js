@@ -3,7 +3,7 @@ import {services} from "./Servicesdata"
 import "./Service.css"
 
 const Services = () => {
-    console.log(services);
+    //console.log(services);
   return (
     <div className='services relative w-full h-[100vh] flex flex-col items-center justify-center'>
         <div className='overlay-service absolute top-0 left-0 w-full h-[100vh] items-center flex flex-col'>

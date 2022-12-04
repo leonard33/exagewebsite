@@ -3,6 +3,7 @@ import "./Nav.css";
 import logo from "../assets/logoex.png";
 import Slider from './Slider';
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [showmenu, setShowmenu] = useState(false)
@@ -28,11 +29,11 @@ const Nav = () => {
         </div>
         {showmenu && <div className='nav-right2 items-center flex flex-col w-[100%] mr-2 bg-white  h-[200px]'>
         <ul className='flex flex-col text-sm font-bold mr-2 w-[100%] items-center justify-between z-50 bg-white'>
-            <li>HOME</li>
-            <li>ABOUT US</li>
+            <Link to="/"><li>HOME</li></Link>
+            <Link to="/about"><li>ABOUT US</li></Link>
             <li>OUR PRODUCTS</li>
             <li>OUR COVERAGE</li>
-            <li>CONTACT EXAGENERATION! INTERNET</li>
+            <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>}
       </div>
@@ -42,11 +43,11 @@ const Nav = () => {
           </div>
         <div className='nav-right w-3/5 mr-2'>
         <ul className='flex text-sm font-bold mr-2 w-[95%] justify-between'>
-            <li>HOME</li>
-            <li>ABOUT US</li>
+        <Link to="/"><li>HOME</li></Link>
+        <Link to="/about"><li>ABOUT US</li></Link>
             <li>OUR PRODUCTS</li>
             <li>OUR COVERAGE</li>
-            <li>CONTACT EXAGENERATION! INTERNET</li>
+        <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>
     </div>
