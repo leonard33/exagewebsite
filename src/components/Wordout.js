@@ -5,7 +5,7 @@ const Wordout = () => {
   return (
     <div className='wordout relative w-full h-[90vh]'>
         <div className='overcover absolute top-0 items-center justify-center flex flex-col left-0 w-[100%] h-[100%]'>
-            <h2>Now available in Taita/Taveta County</h2>
+            <h2>Now available in Coast region</h2>
             <h4 className='connecting sm:text-lg text-5xl text-white'>Connecting you to the world</h4>
             <h6 className='intro w-[65%] text-center mt-20 mb-20 text-white text-xl'>Do you live in Kiserian? If so then we're delighted to let you know that poa!
                  internet home and street services are now LIVE in your area! Just follow the link below and become

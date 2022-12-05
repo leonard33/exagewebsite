@@ -3,9 +3,14 @@ import logo from "../assets/logoex.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import "./Contact.css";
 
 const Contact = () => {
     const [showmenu, setShowmenu] = useState(false)
+    const [firstname, setFirstname] = useState("")
+    const [lastname, setLastname] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
 
   const minimenu = () => {
     if(showmenu === false){
@@ -31,7 +36,7 @@ const Contact = () => {
             <Link to="/about"><li>ABOUT US</li></Link>
             <li>OUR PRODUCTS</li>
             <li>OUR COVERAGE</li>
-            <li>CONTACT EXAGENERATION! INTERNET</li>
+            <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>}
       </div>
@@ -42,12 +47,38 @@ const Contact = () => {
         <div className='nav-right w-3/5 mr-2'>
         <ul className='flex text-sm font-bold mr-2 w-[95%] justify-between'>
         <Link to="/"><li>HOME</li></Link>
-            <Link to="/about"><li>ABOUT US</li></Link>
+        <Link to="/about"><li>ABOUT US</li></Link>
             <li>OUR PRODUCTS</li>
             <li>OUR COVERAGE</li>
-            <li>CONTACT EXAGENERATION! INTERNET</li>
+        <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>
+    </div>
+    <div className='w-full h-[100vh] bg-blue-400'>
+        <h2 className='mt-20'>Contact</h2>
+        <div>
+        <form className='border-2 w-[40%]'>
+            <div className='flex flex-col'>
+          <label className='flex flex-col'>
+              First Name:
+           <input type="text" name="name" placeholder='name' onChange={setFirstname} />
+         </label>
+         <label className='flex flex-col'>
+           Last Name:
+           <input type="text" name="name" onChange={setLastname} />
+         </label>
+         <label className='flex flex-col'>
+           Email:
+           <input type="text" name="name" onChange={setEmail} />
+         </label>
+         <label className='flex flex-col'>
+           Message:
+           <input type="text" name="name" onchange={setMessage} />
+         </label>
+            <input type="submit" value="Submit" />
+            </div>
+         </form>
+         </div>
     </div>
     <Footer />
     </div>
