@@ -3,6 +3,7 @@ import logo from "../assets/logoex.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import support from '../assets/customersupport.png';
 import "./Contact.css";
 
 const Contact = () => {
@@ -55,9 +56,9 @@ const Contact = () => {
         </ul>
         </div>
     </div>
-    <div className='w-full h-[100vh]'>
+    <div className='contact-details w-full h-[100vh]'>
         <h2 className='mt-16 ml-20 font-extrabold text-3xl mb-6'>Contact Us</h2>
-        <div>
+        <div className='flex'>
         <form className='border-2 w-[40%]'>
             <div className='flex flex-col'>
           <label className='flex flex-col'>
@@ -79,6 +80,10 @@ const Contact = () => {
             <button className='submit-btn'>submit</button>
             </div>
          </form>
+         <div className='support-left ml-[30px] flex flex-col'>
+         <img src={support} alt=''/>
+         <h4>24 hr custommer solution</h4>
+         </div>
          </div>
     </div>
     <Footer />
