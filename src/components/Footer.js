@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
         <div className='support'>
             <div className='suport-title'>Contact Support</div>
-            <div className='support-mail'>support@Exagenetwork.co.ke</div>
+            <div className='support-mail'>kenyasupport@Exagenetwork.co.ke</div>
             <div className='contact'>+254 710 317 493</div>
           </div>
         <div className='sales'>

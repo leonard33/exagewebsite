@@ -31,9 +31,7 @@ const Nav = () => {
         <ul className='flex flex-col text-sm font-bold mr-2 w-[100%] items-center justify-between z-50 bg-white'>
             <Link to="/"><li>HOME</li></Link>
             <Link to="/about"><li>ABOUT US</li></Link>
-            <li>OUR PRODUCTS</li>
-            <li>OUR COVERAGE</li>
-            <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
+            <Link to="/contact"><li>CONTACT EXAGENETWORK! INTERNET</li></Link>
         </ul>
         </div>}
       </div>
@@ -41,13 +39,11 @@ const Nav = () => {
         <div className='logo ml-2 w-48 rounded-full h-48'>
           <img className='w-full h-full object-contain' src={logo} alt='' />
           </div>
-        <div className='nav-right w-3/5 mr-2'>
-        <ul className='flex text-sm font-bold mr-2 w-[95%] justify-between'>
+        <div className='nav-right w-[600px] mr-2'>
+        <ul className='flex text-sm font-bold w-[95%] justify-between'>
         <Link to="/"><li>HOME</li></Link>
         <Link to="/about"><li>ABOUT US</li></Link>
-            <li>OUR PRODUCTS</li>
-            <li>OUR COVERAGE</li>
-        <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
+        <Link to="/contact"><li>CONTACT EXAGENETWORK! INTERNET</li></Link>
         </ul>
         </div>
     </div>

@@ -8,10 +8,10 @@ const Packages = () => {
             <div className='overlay1 absolute text-center items-center flex flex-col justify-center'>
                 <div className='home-details'>
                 <h4>Unlimited home internet<br/>
-                 <span>Now only KSh 3500 Install!</span>
+                 <span>Now Install on OFFER !</span>
                   </h4>
-                  <h6>Then KSh 1500 p/m for...<br/>Unlimited data, no caps, no limits, no slowing you down. Up to 4Mbps!<br/>
-                  Plus free access to Africa’s largest street Wi-Fi network of over 10,000 hotspots</h6>
+                  <h6>Then KSh 2000 p/m for...<br/>Unlimited data, no caps, no limits, no slowing you down. Up to 7Mbps!<br/>
+                  Plus free access to Exage Wi-Fi network of over 10,000 hotspots</h6>
                  <button className='btn-connect rounded-lg'>Get Exagenetwork Home</button>
                   </div>
             </div>
@@ -24,16 +24,16 @@ const Packages = () => {
             
            <div className='absolute overlay2 text-center items-center flex flex-col justify-center'>
             <div className='office-details'>
-                <h4>Free street internet every day on<br/>
-                 <span>Africa’s largest Wi-Fi network</span>
+                <h4>Free Exagenetwork internet every day on<br/>
+                 <span>Coast largest Wi-Fi network</span>
                   </h4>
                   <h6>100MB for free every single day!<br/> Every 1GB just KSh 20 thereafter at over 10,000<br/> hotspots and growing daily</h6>
-                 <button className='btn-connect rounded-lg'>Get Exagenetwork office</button>
+                 <button className='btn-connect rounded-lg'>Get Exagenetwork Hotspot</button>
             </div>
            </div>
            <div className='camp2 absolute w-60 h-60 -top-24 left-[13rem] flex flex-col items-center justify-center rounded-full'>
             <span className='package-heading tracking-wider absolute top-16 font-bold text-[2.3rem] -rotate-12 text-white'>Exagenetwork!</span>
-            <h6 className='subdetail tracking-wide absolute right-10 top-28 -rotate-6 font-bold text-5xl text-yellow-300'>Office</h6>
+            <h6 className='subdetail tracking-wide absolute right-10 top-28 -rotate-6 font-bold text-5xl text-yellow-300'>Hotspot</h6>
             </div>
         </div>
     </div>

@@ -19,6 +19,11 @@ const Contact = () => {
       setShowmenu(false)
     }
   }
+
+  const submit = () => {
+
+  }
+
   return (
     <div className='contact'>
          <div className='nav2 flex flex-col'>
@@ -34,8 +39,6 @@ const Contact = () => {
         <ul className='flex flex-col text-sm font-bold mr-2 w-[100%] items-center justify-between z-50 bg-white'>
             <Link to="/"><li>HOME</li></Link>
             <Link to="/about"><li>ABOUT US</li></Link>
-            <li>OUR PRODUCTS</li>
-            <li>OUR COVERAGE</li>
             <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>}
@@ -48,8 +51,6 @@ const Contact = () => {
         <ul className='flex text-sm font-bold mr-2 w-[95%] justify-between'>
         <Link to="/"><li>HOME</li></Link>
         <Link to="/about"><li>ABOUT US</li></Link>
-            <li>OUR PRODUCTS</li>
-            <li>OUR COVERAGE</li>
         <Link to="/contact"><li>CONTACT EXAGENERATION! INTERNET</li></Link>
         </ul>
         </div>
