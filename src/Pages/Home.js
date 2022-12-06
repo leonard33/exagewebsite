@@ -6,7 +6,7 @@ import Packages from '../components/Packages'
 import Services from '../components/Services'
 import Subpackages from '../components/Subpackages'
 import Wordout from '../components/Wordout'
-
+import Videodemos from '../components/Videodemo'
 
 const Home = () => {
   return (
@@ -25,6 +25,9 @@ const Home = () => {
         </section>
         <section id='wordout'>
         <Wordout />
+        </section>
+        <section>
+          <Videodemos />
         </section>
         <section id='offers'>
         <Offers />
