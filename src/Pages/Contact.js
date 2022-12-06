@@ -55,14 +55,14 @@ const Contact = () => {
         </ul>
         </div>
     </div>
-    <div className='w-full h-[100vh] bg-blue-400'>
-        <h2 className='mt-20'>Contact</h2>
+    <div className='w-full h-[100vh]'>
+        <h2 className='mt-16 ml-20 font-extrabold text-3xl mb-6'>Contact Us</h2>
         <div>
         <form className='border-2 w-[40%]'>
             <div className='flex flex-col'>
           <label className='flex flex-col'>
               First Name:
-           <input type="text" name="name" placeholder='name' onChange={setFirstname} />
+           <input type="text" name="name" onChange={setFirstname} />
          </label>
          <label className='flex flex-col'>
            Last Name:
@@ -74,9 +74,9 @@ const Contact = () => {
          </label>
          <label className='flex flex-col'>
            Message:
-           <input type="text" name="name" onchange={setMessage} />
+           <textarea type="text" name="name" rows="4" cols="50" onchange={setMessage} />
          </label>
-            <input type="submit" value="Submit" />
+            <button className='submit-btn'>submit</button>
             </div>
          </form>
          </div>

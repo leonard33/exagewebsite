@@ -26,7 +26,7 @@ const Home = () => {
         <section id='wordout'>
         <Wordout />
         </section>
-        <section>
+        <section id='video'>
           <Videodemos />
         </section>
         <section id='offers'>

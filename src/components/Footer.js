@@ -32,10 +32,10 @@ const Footer = () => {
         <div className='connect'>
          <div className='connect-title'>Connect with us</div>
           <div className='connect-btn flex justify-between'>
-            <img src={watsapp} alt=''/>
-            <img src={fb} alt=''/>
-            <img src={twitter} alt=''/>
-            <img src={insta} alt=''/>
+              <a href='#'><img src={watsapp} alt=''/></a>
+              <a href='https://www.facebook.com/profile.php?id=100088031812269&mibextid=ZbWKwL'><img src={fb} alt=''/></a>
+              <a href='#'><img src={twitter} alt=''/></a>
+              <a href='https://www.instagram.com/reel/Clk0_PuO8yX/?igshid=YmMyMTA2M2Y='><img src={insta} alt=''/></a>
           </div>
         </div>
         </div>

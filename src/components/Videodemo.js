@@ -18,10 +18,10 @@ const Videodemo = () => {
                     through unlimited access to knowledge & opportunities.</h5>
                     <h6 className='mt-14 mb-4 text-lg font-semibold text-purple-500'>Let's connect !</h6>
                     <div className='social flex w-20 borde-2 items-center justify-around'>
-                       <img src={watsapp} alt=''/>
-                        <img src={fb} alt=''/>
-                        <img src={twitter} alt=''/>
-                        <img src={insta} alt=''/>
+                       <a href='#'><img src={watsapp} alt=''/></a>
+                       <a href='https://www.facebook.com/profile.php?id=100088031812269&mibextid=ZbWKwL'><img src={fb} alt=''/></a>
+                        <a href='#'><img src={twitter} alt=''/></a>
+                        <a href='https://www.instagram.com/reel/Clk0_PuO8yX/?igshid=YmMyMTA2M2Y='><img src={insta} alt=''/></a>
                     </div>
             </div>
         </div>
