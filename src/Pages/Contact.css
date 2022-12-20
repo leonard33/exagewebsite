@@ -57,3 +57,19 @@ form {
   .nav-right2 ul li:hover {
     background-color: gainsboro;
   }
+
+  @media screen and (max-width: 480px) {
+    .support-left {
+      display: none !important;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 90% !important;
+      margin: 0;
+      margin-left: 15px;
+      margin-top: -10px;
+    }
+  }

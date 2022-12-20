@@ -9,7 +9,7 @@ const Services = () => {
         <div className='overlay-service absolute top-0 left-0 w-full h-[100vh] items-center flex flex-col'>
         <div className='service-title tracking-widest font-semibold text-3xl mt-16'>~ OUR SERVICES ~</div>
         <div className='desc flex items-center justify-center'>
-            <h4 className='service-intro my-8 text-xl text-white font-bold w-[70%] flex items-center text-center'>Our team consists of technicians who have devout experience and
+            <h4 className='service-intro my-8 text-xl text-blue-500 font-bold w-[70%] flex items-center text-center'>Our team consists of technicians who have devout experience and
                knowledge that coincides with the latest technical innovations and IT Solutions,</h4>
         </div>
         <div className='descy absolute flex justify-around top-[14rem] h-[55%]'>

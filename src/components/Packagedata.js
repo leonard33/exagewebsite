@@ -14,13 +14,13 @@ export const homepackages = [
 ]
 
 export const officepackage = [
-  {title :"Home 10 mbps",
+  {title :"Office 10 mbps",
   details: "Awesome capacity unlimited HD live streaming upto 14 users",
   price: "Ksh 15,000/= per Month"},
-  {title :"Home 15 mbps",
+  {title :"Office 15 mbps",
   details: "Perfect office use unlimited confrence calls zoom meetings HD live streaming upto 32 users ",
   price: "Ksh 20,000/="},
-  {title :"Home 50 mbps",
+  {title :"Office 50 mbps",
   details: "Perfect office use unlimited HD live streaming, live gaming upto 60 users",
   price: "Ksh 30,000/="},
 ]

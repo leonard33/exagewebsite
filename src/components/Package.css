@@ -136,7 +136,7 @@
 
   .office-details span,
   .home-details span {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
 
@@ -147,13 +147,46 @@
 
  .office-details h4,
  .home-details h4 {
-  font-size: 24px;
+  font-size: 24px !important;
  }
 
  .btn-connect {
-  width: 80%;
+  width: 80% !important;
   font-size: 12px;
   padding: 5px;
  }
 
+}
+
+@media screen and (max-width: 780px) {
+  .camp,
+  .camp2 {
+    margin-left: -150px;
+  }
+
+  .home-details span,
+  .office-details span {
+    margin-top: 20px;
+    line-height: 40px !important;
+    font-size: 35px;
+  }
+
+  .home-details h4 {
+    margin-top: 40px !important;
+    line-height: 34px !important;
+  }
+
+  .office-details h4 {
+    margin-top: 100px;
+  }
+
+  .home-details h6,
+  .office-details h6 {
+    margin-bottom: 20px;
+  }
+
+  .btn-connect {
+    margin-top: 200px !important;
+    width: 300px;
+  }
 }

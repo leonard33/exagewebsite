@@ -26,11 +26,11 @@
 @media screen and (max-width: 480px) {
   .cards {
     overflow-x: scroll;
-    padding: 10px;
-    border: 2px solid blue;
+    justify-content: start !important;
   }
 
   .card {
-    border: 2px solid black;
+    min-width: 200px !important;
+    margin: 5px;
   }
 }

@@ -7,7 +7,7 @@ import watsapp from "../assets/watsap.png";
 
 const Videodemo = () => {
   return (
-    <div className='videodemo flex items-center justify-center w-full h-[100vh] bg-orange-200'>
+    <div className='videodemo flex items-center justify-center w-full h-[100vh] bg-white'>
         <div className='videopart w-[95%] flex justify-between'>
             <div className='video w-[60%] h-[70vh] rounded-lg'>
             <iframe className='video rounded-lg' width="100%" height="100%" src="https://www.youtube.com/embed/9AmEeTmnuIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

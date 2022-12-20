@@ -6,7 +6,8 @@
 }
 
 .overlay-service  {
-    background-color: rgba(181, 94, 212, 0.6);
+    /*background-color: rgba(181, 94, 212, 0.6);*/
+    background-color: white;
 }
 
 .service-title {
@@ -56,6 +57,65 @@
     .service-intro {
         font-size: 10px;
     }
+
+    .descy {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start !important;
+      overflow: auto !important;
+      width: 90vw;
+      height: 100vh;
+      }
+
+      .desc-cover {
+        display: none !important;
+      }
+
+    /*.descy,
+    .desc-cover {
+      border: 1px solid red;
+      overflow-x: scroll !important;
+      justify-content: start !important;
+      align-items: center;
+      width: 98vw;
+      margin-top: 20px;
+    }*/
+
+   .service-card {
+    min-width: 15rem !important;
+    height: 20rem !important;
+    margin: 10px;
+
+   }
+
+   .service-card2 {
+    min-width: 15rem !important;
+    height: 20rem !important;
+    margin: 10px;
+   }
+
+    .service-title1 {
+      margin-top: 0 !important;
+    }
+
+    .home-details h4,
+    .office-details h4 {
+      line-height: 24px;
+    }
+
+    .home-details span {
+      line-height: 24px;
+    }
+
+    .home-details h6 {
+      margin-top: 5px;
+      line-height: 20px;
+    }
+
+    .btn-connect {
+      margin: 0 !important;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -63,11 +123,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start !important;
     overflow: auto !important;
     width: 90vw;
     height: 100vh;
-    border: 2px solid green;
     }
 
   .desc-cover {
@@ -77,11 +136,17 @@
     .service-card {
       width: 100% !important;
       height: 80%;
-      margin-top: 5px;
-      border: 2px solid red;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     .service-card2 {
       display: none;
+    }
+
+    .service-intro {
+      margin-top: -5px !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
     }
 }

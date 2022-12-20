@@ -10,21 +10,45 @@
 
 .subpackages {
   background-image: url("https://t3.ftcdn.net/jpg/05/12/06/44/360_F_512064492_DphwxubmDJ7o3AzkbxAFbb3jXx1pspK1.jpg");
+  background-size: cover;
   z-index: 2;
 }
 
 @media screen and (max-width: 480px) {
   .packagedata {
-    overflow-x: auto;
+    overflow-x: scroll !important;
+    justify-content: start !important;
   }
 
   .subpackages {
     padding: 0;
-    margin: 0;
   }
 
   .pk:hover {
-    margin-top: 20px;
+    margin-top: 20px !important;
   }
 
+  .apply-card {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
 }
+  @media screen and (max-width: 780px) {
+    .subpackages {
+      margin-top: 30px !important;
+    }
+
+    .packagedata {
+      overflow-x: scroll !important;
+      justify-content: start !important;
+    }
+
+    .campo {
+      display: none !important;
+    }
+    
+    .package-card:hover {
+      display: none !important;
+    }
+
+  }

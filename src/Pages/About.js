@@ -24,7 +24,7 @@ const About = () => {
                     <img className='absolute right-0 top-[10rem]' src={cctvsolution} alt="access control"/>
                     <img className='absolute top-24' src={structurecabling} alt="access control"/>
                 </div>
-                <div className='w-1/2 flex items-center justify-center'>
+                <div className='about-news w-1/2 flex items-center justify-center'>
                 <h6 className='w-[80%]'>Exage Networks  Limited is a leading installer/reseller in internet connectivity, WI-FI solutions, CCTV installation, 
                     access control systems FAIBA installations and it consultations. We offer Wireless and Wired Networks products and Solutions, active and passive network equipment, network accessories, components and communications solutions. 
                     We use products and solutions from leadng brands in networking including Cisco, Ubiquiti, Mikrotik, TP-link, Edge-Core, among others.

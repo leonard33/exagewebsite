@@ -20,9 +20,11 @@ const Nav = () => {
     <div className='Nav'>
       <div className='nav2 flex flex-col'>
         <div className='flex w-full items-center justify-between'>
-      <div className='logo2 ml-4  w-[80px] h-[80px] rounded-full'>
-        <img className='w-full h-full object-contain' src={logo} alt='' />
+        <Link to="/">
+      <div className='logo2 ml-4  w-[80px] h-[80px] rounded-full'> 
+        <img className='w-full h-full object-contain' src={logo} alt='' /> 
         </div>
+        </Link>
         <div className='menuicon mr-10' onClick={() => minimenu()}>
           <AiOutlineMenu size={30} />
         </div>
@@ -36,9 +38,11 @@ const Nav = () => {
         </div>}
       </div>
     <div className='navigate flex justify-between w-full h-28 items-center'>
+    <Link to="/">
         <div className='logo ml-2 w-48 rounded-full h-48'>
           <img className='w-full h-full object-contain' src={logo} alt='' />
           </div>
+          </Link>
         <div className='nav-right w-[600px] mr-2'>
         <ul className='flex text-sm font-bold w-[95%] justify-between'>
         <Link to="/"><li>HOME</li></Link>

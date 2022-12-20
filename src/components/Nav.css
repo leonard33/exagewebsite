@@ -116,6 +116,23 @@
     line-height: 9px;
   }
 
+  a .logo {
+    width: 80px !important;
+    height: 80px !important;
+    z-index: 20;
+    display: block;
+  }
+
+  .nav-right {
+    width: 70% !important;
+  }
+
+  .logo img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+
   .introduction h2 {
     width: 80%;
     font-size: 35px;
@@ -147,6 +164,17 @@
 @media screen and (max-width: 480px) {
   .navigate {
     display: none !important;
+  }
+
+  .logo2 {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .logo2 img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
   }
 
   .introduction h2 {

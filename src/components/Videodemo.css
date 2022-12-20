@@ -5,6 +5,8 @@
 .social img {
   cursor: pointer;
   padding: 5px;
+  min-width: 30px;
+  height: 30px;
 }
 
 .social img:hover {
@@ -31,6 +33,7 @@
     margin-left: -2px !important;
     align-self: center;
     margin-bottom: 20px;
+    margin-top: 30px;
   }
 
   .video-desc h2 {
